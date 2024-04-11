@@ -30,6 +30,7 @@ namespace WPFApp
 		void ShowMessage()
 		{
 			MessageBox.Show("Ejecutando el método ShowMessage");
+
 		}
 	}
 }
