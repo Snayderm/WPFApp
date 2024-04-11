@@ -8,6 +8,5 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label x:Name="Message"/>
-        
     </Grid>
 </Window>
