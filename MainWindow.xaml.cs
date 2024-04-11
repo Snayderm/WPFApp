@@ -24,7 +24,10 @@ namespace WPFApp
 		{
 			Task T;
 			int i = 0;
-
+			// ¿Qué es un delegado? Apuntadores a funciones.
+			// EJEMPLO: Action y Func
+			Action Code = new Action(ShowMessage);
+			T = new Task(Code);
 		}
 
 		void ShowMessage()
