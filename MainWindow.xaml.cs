@@ -20,6 +20,13 @@ namespace WPFApp
 			InitializeComponent();
 		}
 
+		void AddMessage(string message)
+		{
+			Message.Content +=
+				$"Mensaje: {message}," +
+				$"Hilo Actual: {Thread.CurrentThread.ManagedThreadId}\n";
+		}
+
 		void CreateTask()
 		{
 			Task T;
