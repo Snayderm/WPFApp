@@ -33,6 +33,13 @@ namespace WPFApp
 				MessageBox.Show("Ejecutando una tarea en un método anónimo.");
 			}
 			);
+
+			//Expresión Lambda:
+			//(parámetros de entrada) => Expresión
+			//EJ: () => Expresión
+			// El operador lambda (=>) se lee como "Va Hacia"
+
+			Task T3 = new Task(() => ShowMessage());
 		}
 
 		void ShowMessage()
